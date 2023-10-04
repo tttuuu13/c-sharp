@@ -1,6 +1,4 @@
-﻿using System.Threading;
-using System.ComponentModel;
-class Program
+﻿class Program
 {
     public static void RenderCanvas(char[,] canvas)
     {
@@ -13,7 +11,7 @@ class Program
             }
             Console.WriteLine();
         }
-        Thread.Sleep(10);
+        Thread.Sleep(100);
     }
     public static void Python(int n)
     {
@@ -65,6 +63,6 @@ class Program
     }
     static void Main()
     {
-        Python(10);
+        Python(7);
     }
 }
