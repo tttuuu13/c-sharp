@@ -17,8 +17,4 @@
         }
         Console.WriteLine();
     }
-    static void Main()
-    {
-        Ornament(7, 3);
-    }
 }
